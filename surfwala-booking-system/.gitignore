@@ -1,0 +1,25 @@
+# Dependencies & build output
+node_modules
+.next/
+out/
+
+# Environment variables – NEVER commit these
+.env
+.env.local
+.env*.local
+
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+.snowflake/
+.v0-trash/
+
+# Vercel
+.vercel
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.tsbuildinfo
+next-env.d.ts
